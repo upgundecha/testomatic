@@ -10,7 +10,7 @@ namespace CompareUtil
 {
     public class CompareImage
     {
-        public enum Result { Matched, SizeMismatch, PixelMismatch };
+        public enum Result { Matched, SizeMismatch, PixelMismatch, Mismatch };
 
         public static Result CompareByPixel(string baseFile, string actualFile)
         {
@@ -128,7 +128,7 @@ namespace CompareUtil
                 for (int i = 0; i < baseHash.Length && i < actHash.Length && result == Result.Matched; i++)
                 {
                     if (baseHash[i] != actHash[i])
-                        result = Result.PixelMismatch;
+                        result = Result.Mismatch;
                 }
             }
             return result;

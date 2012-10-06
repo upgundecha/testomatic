@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project InitialTargets="" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10fc9099-1f45-4b97-8c36-4d4d47af1dd1}</ProjectGuid>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Name>jQueryUI</Name>
+    <RootNamespace>jQueryUI</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Help" />
+    <Folder Include="JavaScript" />
+    <Folder Include="Res" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaScript\jQueryUITab.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="jQueryUITestObjects.xml" />
+    <Content Include="jQueryUI.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

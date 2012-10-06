@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TypeInformation xsi:noNamespaceSchemaLocation="file:///C:/Program Files/HP/Extensibility Accelerator/bin/PackagesToLoad/ClassesDefintions.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" PackageName="jQueryUI" AddinName="Web">
+  <ClassInfo DefaultOperationName="Select" GenericTypeID="TabStrip" Name="jQueryUITab" BaseClassInfoName="WebElement">
+    <Description>jQuery UI Tab Control</Description>
+    <HelpInfo />
+    <IconInfo />
+    <TypeInfo>
+      <Operation Name="GetItemCount" PropertyType="Method">
+        <Description>Returns count of Tabs</Description>
+        <ReturnValueType>
+          <Type VariantType="Integer" />
+        </ReturnValueType>
+      </Operation>
+      <Operation Name="GetItems" PropertyType="Method">
+        <Description>Returns name of all the Tabs</Description>
+        <ReturnValueType>
+          <Type VariantType="String" />
+        </ReturnValueType>
+      </Operation>
+      <Operation Name="GetSelectedItem" PropertyType="Method">
+        <Description>Returns the name of selected Tab</Description>
+        <ReturnValueType>
+          <Type VariantType="String" />
+        </ReturnValueType>
+      </Operation>
+      <Operation Name="Select" PropertyType="Method">
+        <Description>Selects a specified Tab on jQuery UI Tab widget</Description>
+        <Argument Name="Item" IsMandatory="true">
+          <Type VariantType="String" />
+        </Argument>
+        <ReturnValueType>
+          <Type VariantType="Boolean" />
+        </ReturnValueType>
+      </Operation>
+    </TypeInfo>
+    <IdentificationProperties>
+      <IdentificationProperty Name="all items" />
+      <IdentificationProperty Name="items count" />
+      <IdentificationProperty Name="logical name" ForDescription="true" />
+      <IdentificationProperty Name="selected" />
+    </IdentificationProperties>
+  </ClassInfo>
+</TypeInformation>

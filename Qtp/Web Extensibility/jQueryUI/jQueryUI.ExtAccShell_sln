@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Extensibility Accelerator Solution File, Format Version 10.00
+Project("{6227159D-D8A1-4DAF-BF40-C90673CDFA7D}") = "jQueryUI", "jQueryUI\jQueryUI.weproj", "{10FC9099-1F45-4B97-8C36-4D4D47AF1DD1}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

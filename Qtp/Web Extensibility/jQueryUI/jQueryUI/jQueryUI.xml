@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controls xsi:noNamespaceSchemaLocation="file:///C:/Program Files/HP/Extensibility Accelerator/bin/PackagesToLoad/Toolkit.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Control TestObjectClass="jQueryUITab">
+    <Settings>
+      <Variable name="default_imp_file" value="JavaScript\jQueryUITab.js" />
+    </Settings>
+    <Identification>
+      <Browser name="*">
+        <Conditions type="IdentifyIfPropMatch">
+          <Condition prop_name="className" expected_value="ui-tabs ui-widget ui-widget-content ui-corner-all" />
+          <Condition prop_name="tagName" expected_value="DIV" />
+        </Conditions>
+      </Browser>
+    </Identification>
+    <Record>
+      <EventListening function="AddEventHandler" use_default_event_handling="false" />
+    </Record>
+  </Control>
+</Controls>
